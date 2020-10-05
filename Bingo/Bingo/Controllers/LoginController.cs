@@ -39,7 +39,7 @@ namespace Bingo.Controllers
         if (dr.Read())
         {
             con.Close();
-            return View("Create");
+            return View("Ingresa");
 
         }
         else

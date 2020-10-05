@@ -6,12 +6,16 @@
 
   <ItemGroup>
     <Compile Remove="wwwroot\NewFolder1\**" />
+    <Compile Remove="wwwroot\NewFolder2\**" />
     <Compile Remove="wwwroot\NewFolder\**" />
     <Content Remove="wwwroot\NewFolder1\**" />
+    <Content Remove="wwwroot\NewFolder2\**" />
     <Content Remove="wwwroot\NewFolder\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder1\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder2\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder\**" />
     <None Remove="wwwroot\NewFolder1\**" />
+    <None Remove="wwwroot\NewFolder2\**" />
     <None Remove="wwwroot\NewFolder\**" />
   </ItemGroup>
 
@@ -21,7 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="css\" />
+    <None Include="wwwroot\js\vendor\jquery-1.12.4.min.js" />
+    <None Include="wwwroot\js\vendor\modernizr-3.5.0.min.js" />
   </ItemGroup>
 
 </Project>
